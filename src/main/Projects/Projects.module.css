@@ -1,18 +1,18 @@
-.skills {
+.projects {
     min-height: 100vh;
-    background-color: darkcyan;
+    background-color: #414848;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-.skills__container {
+.projects__container {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
     border: 1px solid black;
 }
-.skill__wrapper {
+.projects__wrapper {
     border: 1px solid black;
     width: 100%;
     display: flex;
@@ -24,6 +24,6 @@
     font-size: 28px;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: aqua;
+    background-color: cadetblue;
 }
 
