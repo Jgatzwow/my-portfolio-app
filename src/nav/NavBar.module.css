@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5px;
+    gap: 2px;
 }
 .header__nav__list_item:last-child {
     margin-right: 15px;
