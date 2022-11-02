@@ -6,6 +6,7 @@ import { Skills } from "./main/skills/Skills";
 import { v1 } from "uuid";
 import { Projects } from "./main/Projects/Projects";
 import { RemoteWork } from "./main/RemoteWork/RemoteWork";
+import { Contacts } from "./main/Contacts/Contacts";
 
 export type SkillType = {
   id: string;
@@ -114,6 +115,7 @@ const App = () => {
         <Skills skills={state.skills} />
         <Projects projects={state.projects} />
         <RemoteWork />
+        <Contacts />
       </main>
     </div>
   );

@@ -12,7 +12,7 @@ export const Project: React.FC<PropsType> = ({
   description,
   tech_stack,
 }) => {
-  const mappedTechStack = tech_stack.map((ts) => ts);
+  const mappedTechStack = tech_stack.map((ts) => ts + " ");
   return (
     <div className={styles.project}>
       <div className={styles.icon__wrapper}>

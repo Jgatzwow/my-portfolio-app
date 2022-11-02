@@ -6,4 +6,6 @@
     justify-content: flex-end;
     align-items: center;
 }
-
+.header .header__container {
+    justify-content: flex-end;
+}

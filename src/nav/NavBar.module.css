@@ -1,10 +1,15 @@
 .header__nav {
+    display: flex;
     border: 1px solid;
 }
 
 .header__nav_list {
-    width: 20vw;
+    min-width: 30vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
+}
+.header__nav__list_item:last-child {
+    margin-right: 15px;
 }
