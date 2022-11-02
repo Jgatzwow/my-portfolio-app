@@ -7,6 +7,7 @@ import { v1 } from "uuid";
 import { Projects } from "./main/Projects/Projects";
 import { RemoteWork } from "./main/RemoteWork/RemoteWork";
 import { Contacts } from "./main/Contacts/Contacts";
+import { Footer } from "./Footer/Footer";
 
 export type SkillType = {
   id: string;
@@ -117,6 +118,7 @@ const App = () => {
         <RemoteWork />
         <Contacts />
       </main>
+      <Footer />
     </div>
   );
 };
