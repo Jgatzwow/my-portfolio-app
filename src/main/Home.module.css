@@ -24,6 +24,7 @@
 }
 
 .home__info {
+    max-width: 500px;
     margin: 11px 0 23px;
     font-size: 16px;
     line-height: 32px;
@@ -49,6 +50,7 @@
     border: 0;
     background-color: #ffb400;
     margin-right: 25px;
+    transition: 0.5s linear;
 }
 
 .home__link:hover {
@@ -61,11 +63,13 @@
     color: #ffb400;
     background: transparent;
     border: 1px solid #ffb400;
+    transition: 0.5s linear;
 }
 
 .home__link_diff:hover {
     background-color: #ffb400;
     color: #fff;
+    transition: 0.5s linear;
 }
 
 .text {
@@ -74,11 +78,9 @@
 }
 
 .photo__wrap {
-    flex-grow: 1;
-    min-width: 200px;
-    min-height: 1000px;
-    background-color: cyan;
-    margin-right: 10px;
+    width: 600px;
+    height: 600px;
+    margin-right: 60px;
 }
 
 .photo {

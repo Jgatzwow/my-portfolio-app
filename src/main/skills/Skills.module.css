@@ -1,6 +1,4 @@
 .skills {
-    min-height: 100vh;
-    background-color: darkcyan;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +8,6 @@
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
-    border: 1px solid black;
 }
 .skill__wrapper {
     border: 1px solid black;
@@ -21,10 +18,9 @@
     justify-content: space-around;
 }
 .title {
-    font-size: 28px;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: aqua;
-    text-align: center;
+    margin-bottom: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 

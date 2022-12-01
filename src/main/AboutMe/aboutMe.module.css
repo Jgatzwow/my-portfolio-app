@@ -1,0 +1,123 @@
+
+.aboutMe {
+    min-height: 100vh;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe__title_text {
+    padding: 60px 0 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe__title {
+    font-size: 55px;
+    position: relative;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.aboutMe__title_yellow {
+    color: #ffb400;
+}
+
+.aboutMe__text {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 20px 0 0;
+    opacity: .8;
+}
+
+.aboutMe__text::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    right: -50px;
+    top: 14px;
+    width: 30px;
+    background-color: #ffb400;
+}
+
+.aboutMe__text::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    left: -50px;
+    top: 14px;
+    width: 30px;
+    background-color: #ffb400;
+}
+
+.aboutMe__personal_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.personal_info__extended {
+    display: flex;
+}
+
+.personal_info__extended__link {
+    box-shadow: none;
+    border-radius: 26px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 33px;
+    outline: none;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    border: 0;
+    background-color: #ffb400;
+    transition: 0.5s linear;
+}
+.personal_info__extended__link:hover {
+    background-color: #555;
+    transition: 0.5s linear;
+}
+.infoLists__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    min-width: 100%;
+}
+
+.aboutMe__personal_info__bordered {
+    position: relative;
+    height: 440px;
+    width: 440px;
+    border: 5px solid #ffb400;
+    margin-right: 40px;
+}
+
+.personal_info__img__wrapper {
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    background-color: white;
+    height: 440px;
+    width: 440px;
+}
+.personal_info__img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}

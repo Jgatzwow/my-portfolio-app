@@ -24,7 +24,7 @@ export const Skills: React.FC<PropsType> = ({ skills }) => {
       <div
         className={`${containerStyles.container} ${styles.skills__container}`}
       >
-        <h2 className={styles.title}>My Skills</h2>
+        <h2 className={styles.title}>Skills</h2>
         <div className={styles.skill__wrapper}>{mappedSkills}</div>
       </div>
     </section>
