@@ -1,9 +1,9 @@
 .contacts {
-    min-height: 40vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #8ff141;
+    background-color: #222;
 }
 
 .contacts__container {
@@ -14,35 +14,67 @@
     border: 1px solid black;
 }
 
-.title {
-    font-size: 28px;
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: aqua;
-    text-align: center;
+.contacts__title {
+    font-size: 55px;
+    position: relative;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contacts__title_yellow {
+    color: #ffb400;
+}
+
+.contacts__text {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 20px 0 40px;
+    opacity: .8;
+}
+
+.contacts__text::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    right: -50px;
+    top: 14px;
+    width: 30px;
+    background-color: #ffb400;
+}
+
+.contacts__text::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    left: -50px;
+    top: 14px;
+    width: 30px;
+    background-color: #ffb400;
 }
 
 .contacts__btn {
-    background-color: #1652F0;
-    border: 1px solid #1652F0;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 14px;
-    line-height: 1.15;
-    overflow: visible;
-    padding: 10px 40px;
+    box-shadow: none !important;
+    border-radius: 26px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 33px;
+    outline: none !important;
+    overflow: hidden;
+    display: inline-block;
     position: relative;
-    text-align: center;
-    text-transform: none;
-    transition: all 80ms ease-in-out;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: fit-content;
-    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    border: 0;
+    max-width: 215px;
+    background-color: #ffb400;
+    transition: 0.5s linear;
 }
 
 .contacts__btn:focus {
@@ -50,15 +82,38 @@
 }
 
 .contacts__btn:hover {
-    background-color: #0A46E4;
-    border-color: #0A46E4;
+    background-color: #555;
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    border: 1px solid;
-    width: 280px;
-    margin-bottom: 20px;
+
+}
+
+.contacts__suggestion {
+    max-width: 600px;
+    margin: 0 0 24px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.info__form__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__inputs__wrapper {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.form__content__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }

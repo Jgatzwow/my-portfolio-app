@@ -1,8 +1,8 @@
 
-.footer {
-    min-height: 30vh;
-    background: rgba(39, 222, 216, 0.96);
+.socials__wrapper {
+    background-color: #222;
     display: flex;
+    flex-direction: column;
 }
 
 .footer .footer__container {
@@ -27,15 +27,11 @@
     gap: 10px;
     justify-content: space-around;
     font-size: 20px;
-    padding: 20px;
-    background-color: rgba(126, 0, 37, 0.96);
 }
 
 .socials__link {
     display: flex;
     justify-content: space-around;
-    min-width: 120px;
-    background-color: #fff;
     transition: 1s;
 }
 .socials__link:hover,

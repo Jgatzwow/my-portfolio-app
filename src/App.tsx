@@ -2,12 +2,9 @@ import React from "react";
 import "./App.css";
 import { Header } from "./header/Header";
 import { Home } from "./main/Home";
-import { Skills } from "./main/skills/Skills";
 import { v1 } from "uuid";
 import { Projects } from "./main/Projects/Projects";
-import { RemoteWork } from "./main/RemoteWork/RemoteWork";
 import { Contacts } from "./main/Contacts/Contacts";
-import { Footer } from "./Footer/Footer";
 import { AboutMe } from "./main/AboutMe/AboutMe";
 
 export type SkillType = {
@@ -118,6 +115,24 @@ const App = () => {
         description: "extra info about the skill",
         tech_stack: ["HTML", "CSS", "JS"],
       },
+      {
+        id: v1(),
+        project: "Odigo Landing page",
+        description: "extra info about the skill",
+        tech_stack: ["HTML", "CSS", "JS"],
+      },
+      {
+        id: v1(),
+        project: "Odigo Landing page",
+        description: "extra info about the skill",
+        tech_stack: ["HTML", "CSS", "JS"],
+      },
+      {
+        id: v1(),
+        project: "Odigo Landing page",
+        description: "extra info about the skill",
+        tech_stack: ["HTML", "CSS", "JS"],
+      },
     ],
   };
 
@@ -128,10 +143,8 @@ const App = () => {
         <Home />
         <AboutMe skills={state.skills} />
         <Projects projects={state.projects} />
-        <RemoteWork />
         <Contacts />
       </main>
-      <Footer />
     </div>
   );
 };

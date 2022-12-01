@@ -1,7 +1,6 @@
 .main {
     height: 100vh;
-    background: url("https://free4kwallpapers.com/uploads/originals/2015/09/19/portfolio-background.png") center;
-    background-size: cover;
+    background-color: #222;
 }
 
 .main__container {
