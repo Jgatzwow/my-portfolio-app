@@ -1,0 +1,88 @@
+.main {
+    height: 100vh;
+    background: url("https://free4kwallpapers.com/uploads/originals/2015/09/19/portfolio-background.png") center;
+    background-size: cover;
+}
+
+.main__container {
+    flex-direction: row-reverse;
+}
+
+.home__greeting {
+    font-weight: 400;
+    font-size: 1.1875rem;
+    line-height: 1.2;
+}
+
+.home__title {
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 500;
+    margin: 19px 0 10px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.home__info {
+    margin: 11px 0 23px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.home__link {
+    box-shadow: none !important;
+    border-radius: 26px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 33px;
+    outline: none !important;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    border: 0;
+    background-color: #ffb400;
+    margin-right: 25px;
+}
+
+.home__link:hover {
+    background-color: #6c757d;
+    transition: 0.3s linear;
+}
+
+
+.home__link_diff {
+    color: #ffb400;
+    background: transparent;
+    border: 1px solid #ffb400;
+}
+
+.home__link_diff:hover {
+    background-color: #ffb400;
+    color: #fff;
+}
+
+.text {
+    width: 300px;
+    flex-grow: 1;
+}
+
+.photo__wrap {
+    flex-grow: 1;
+    min-width: 200px;
+    min-height: 1000px;
+    background-color: cyan;
+    margin-right: 10px;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}

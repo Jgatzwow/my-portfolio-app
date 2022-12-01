@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Header } from "./header/Header";
-import { Main } from "./main/Main";
+import { Home } from "./main/Home";
 import { Skills } from "./main/skills/Skills";
 import { v1 } from "uuid";
 import { Projects } from "./main/Projects/Projects";
@@ -75,7 +75,19 @@ const App = () => {
       },
       {
         id: v1(),
-        skill: "Material UI",
+        skill: "Material UI/Tailwind",
+        description: "extra info about the skill",
+        image: "https://v4.mui.com/static/logo.png",
+      },
+      {
+        id: v1(),
+        skill: "RTK Query",
+        description: "extra info about the skill",
+        image: "https://v4.mui.com/static/logo.png",
+      },
+      {
+        id: v1(),
+        skill: "Firebase",
         description: "extra info about the skill",
         image: "https://v4.mui.com/static/logo.png",
       },
@@ -112,7 +124,7 @@ const App = () => {
     <div className="App">
       <Header />
       <main>
-        <Main />
+        <Home />
         <Skills skills={state.skills} />
         <Projects projects={state.projects} />
         <RemoteWork />

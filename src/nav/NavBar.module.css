@@ -1,6 +1,5 @@
 .header__nav {
     display: flex;
-    border: 1px solid;
 }
 
 .header__nav_list {
@@ -9,6 +8,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 2px;
+
+}
+.header__nav__link {
+    font-size: 20px;
+}
+.header__nav__link:hover {
+    color: #ffb400;
 }
 .header__nav__list_item:last-child {
     margin-right: 15px;
