@@ -35,7 +35,7 @@ const App = () => {
       {
         id: v1(),
         skill: "HTML",
-        description: "80%",
+        description: "90%",
       },
       {
         id: v1(),
@@ -50,7 +50,7 @@ const App = () => {
       {
         id: v1(),
         skill: "Redux/Redux Toolkit",
-        description: "90%",
+        description: "85%",
       },
       {
         id: v1(),
