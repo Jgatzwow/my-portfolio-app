@@ -1,20 +1,10 @@
 .skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 40%;
 }
-.skills__container {
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-}
+
 .skill__wrapper {
-    border: 1px solid black;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
     justify-content: space-around;
 }
 .title {
@@ -23,4 +13,3 @@
     font-weight: 600;
     text-transform: uppercase;
 }
-

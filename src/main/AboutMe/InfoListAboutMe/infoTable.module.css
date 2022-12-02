@@ -1,0 +1,29 @@
+.infoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.infoList__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.infoList__text {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: .8;
+    margin-right: 15px;
+}
+.infoList__personal {
+    margin: 0;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: .8;
+}

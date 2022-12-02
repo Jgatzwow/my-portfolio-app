@@ -1,0 +1,42 @@
+.infoList__text {
+    display: flex;
+    flex-direction: column;
+    min-width: 35%;
+    margin-right: 70px;
+}
+.InfoList__title {
+    margin-bottom: 50px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.infoList__item__date {
+    font-size: 13px;
+    opacity: .8;
+    font-weight: 400;
+}
+.knowledge__title {
+    max-width: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.separator {
+    display: inline-block;
+    width: 10px;
+    background: #555;
+    height: 2px;
+    margin: 0 7px 3px 7px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.infoList__item__more {
+    font-size: 14px;
+    margin: 0;
+    line-height: 28px;
+}
+
+

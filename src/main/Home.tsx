@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Home.module.css";
 import containerStyles from "../common/styles/Container.module.css";
+import { NavLink } from "react-router-dom";
 
 export const Home = () => {
   return (
@@ -15,15 +16,15 @@ export const Home = () => {
             code and user-centric design.
           </p>
           <div>
-            <a className={styles.home__link} href="#">
+            <NavLink className={styles.home__link} to="/about">
               More about me
-            </a>
-            <a
+            </NavLink>
+            <NavLink
               className={`${styles.home__link} + ' ' + ${styles.home__link_diff}`}
-              href="#"
+              to="/projects"
             >
               Portfolio
-            </a>
+            </NavLink>
           </div>
         </div>
         <div className={styles.photo__wrap}>

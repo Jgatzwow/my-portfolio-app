@@ -3,20 +3,20 @@ import styles from "./Contacts.module.css";
 import inputStyles from "../../common/styles/InputStyles.module.css";
 import containerStyles from "../../common/styles/Container.module.css";
 import { GetInTouch } from "./getInTouch/GetInTouch";
+import { Title } from "../../common/title/Title";
 
 export const Contacts = () => {
+  const dataForTitle = {
+    first: "GET",
+    second: "IN TOUCH",
+    extra: "I’m always open to discussing product design work or partnerships.",
+  };
   return (
     <section className={styles.contacts}>
       <div
         className={`${containerStyles.container} ${styles.contacts__container}`}
       >
-        <h2 className={styles.contacts__title}>
-          GET <span className={styles.contacts__title_yellow}>IN TOUCH</span>
-        </h2>
-        <span className={styles.contacts__text}>
-          I’m always open to discussing product design work or partnerships.
-        </span>
-
+        <Title dataForTitle={dataForTitle} />
         <div className={styles.info__form__wrapper}>
           <GetInTouch />
           <div className={styles.form__content__wrapper}>
