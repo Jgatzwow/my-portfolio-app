@@ -1,16 +1,18 @@
 
 .header {
     position: fixed;
-    right: 200px;
-    top: 50px;
+    top: 120px;
+    left: 30px;
     height: 80px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .header .header__container {
     justify-content: flex-end;
 }
+
 .error404__wrapper {
     margin: 0 auto;
     display: flex;
@@ -60,28 +62,73 @@
 }
 
 .burger {
-    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #555;
     cursor: pointer;
-    left: 10px;
-    top: 20%;
+    left: 30px;
+    top: 30px;
     transition: all 1s ease-out;
+}
+
+.lines__wrapper {
+    position: relative;
 }
 
 .burger__none {
-    display: none;
     position: absolute;
-    cursor: pointer;
-    left: 10px;
-    top: 20%;
-    transition: all 1s ease-out;
+    right: 15px;
+    top: 13px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
 }
-.line {
-    width: 30px;
-    height: 3px;
-    background: red;
-    margin: 5px;
+.burger__none:before,
+.burger__none:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #fff;
+}
+.burger__none:before {
+    transform: rotate(45deg);
+}
+.burger__none:after {
+    transform: rotate(-45deg);
 }
 
+
+.line:first-child {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    margin: 5px;
+}
+.line:nth-child(2) {
+    position: absolute;
+    top: 22px;
+    left: 15px;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    margin: 5px;
+}
+.line:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    margin: 5px;
+}
 .hw__link {
     text-decoration: none;
     font-size: 30px;

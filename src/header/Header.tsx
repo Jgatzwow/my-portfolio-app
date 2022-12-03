@@ -9,36 +9,37 @@ export const Header = () => {
   const animatedNavClassName = !toggle
     ? styles.nav__links__closed
     : styles.nav__links__opened;
-  const animatedBurgerClassName = !toggle ? styles.burger : styles.burger__none;
+  const animatedBurgerClassName = styles.burger;
 
   const onBurgerClickHandler = () => {
     setToggle((prevState) => !prevState);
   };
-
-  const onBurgerMouseLeaveHandler = () => {
-    setTimeout(onBurgerMouseOverHandler, 5000);
+  const onBurgerClickHandler1 = () => {
+    setToggle(true);
   };
 
-  const onBurgerMouseOverHandler = () => {
-    setToggle((prevState) => !prevState);
-  };
   return (
     <header className={styles.header}>
-      <div
-        className={`${containerStyles.container} ${styles.header__container}`}
-      >
-        {/*<div
-          onMouseEnter={onBurgerMouseLeaveHandler}
-          onMouseOver={onBurgerMouseOverHandler}
-          onClick={onBurgerClickHandler}
-          className={animatedBurgerClassName}
-        >
-          <div className={styles.line}></div>
-          <div className={styles.line}></div>
-          <div className={styles.line}></div>
-        </div>*/}
-        <NavBar />
+      <div onClick={onBurgerClickHandler} className={animatedBurgerClassName}>
+        <div className={styles.lines__wrapper}>
+          {!toggle && (
+            <>
+              <div className={styles.line}></div>
+              <div className={styles.line}></div>
+              <div className={styles.line}></div>
+            </>
+          )}
+          {toggle && (
+            <>
+              <div
+                onClick={onBurgerClickHandler1}
+                className={styles.burger__none}
+              ></div>
+            </>
+          )}
+        </div>
       </div>
+      <NavBar toggle={toggle} />
     </header>
   );
 };

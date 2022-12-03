@@ -2,27 +2,58 @@ import React from "react";
 import styles from "./NavBar.module.css";
 import { NavLink } from "react-router-dom";
 
-export const NavBar = () => {
+type PropsType = {
+  toggle: boolean;
+};
+
+export const NavBar: React.FC<PropsType> = ({ toggle }) => {
+  const navBarClassName = !toggle
+    ? styles.header__nav_closed
+    : styles.header__nav_open;
   return (
-    <nav className={styles.header__nav}>
+    <nav className={navBarClassName}>
       <ul className={styles.header__nav_list}>
         <li className={styles.header__nav__list_item}>
-          <NavLink className={styles.header__nav__link} to="/">
+          <NavLink
+            end
+            className={(isActive) =>
+              isActive.isActive ? styles.active : styles.header__nav__link
+            }
+            to="/"
+          >
             Home
           </NavLink>
         </li>
         <li className={styles.header__nav__list_item}>
-          <NavLink className={styles.header__nav__link} to="/about">
-            About Me
+          <NavLink
+            end
+            className={(isActive) =>
+              isActive.isActive ? styles.active : styles.header__nav__link
+            }
+            to="/about"
+          >
+            About
           </NavLink>
         </li>
         <li className={styles.header__nav__list_item}>
-          <NavLink className={styles.header__nav__link} to="/projects">
+          <NavLink
+            end
+            className={(isActive) =>
+              isActive.isActive ? styles.active : styles.header__nav__link
+            }
+            to="/projects"
+          >
             Portfolio
           </NavLink>
         </li>
         <li className={styles.header__nav__list_item}>
-          <NavLink className={styles.header__nav__link} to="/contacts">
+          <NavLink
+            end
+            className={(isActive) =>
+              isActive.isActive ? styles.active : styles.header__nav__link
+            }
+            to="/contacts"
+          >
             Contacts
           </NavLink>
         </li>
