@@ -1,5 +1,10 @@
 import React from "react";
 import styles from "./socials.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook";
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
 
 export const Socials = () => {
   return (
@@ -8,22 +13,22 @@ export const Socials = () => {
       <ul className={styles.socials}>
         <li>
           <a className={styles.socials__link} href="#">
-            facebook
+            <FontAwesomeIcon border icon={faFacebook} />
           </a>
         </li>
         <li>
           <a className={styles.socials__link} href="#">
-            github
+            <FontAwesomeIcon border icon={faGithub} />
           </a>
         </li>
         <li>
           <a className={styles.socials__link} href="#">
-            linkedIn
+            <FontAwesomeIcon border icon={faInstagram} />
           </a>
         </li>
         <li>
           <a className={styles.socials__link} href="#">
-            Instagram
+            <FontAwesomeIcon border icon={faLinkedin} />
           </a>
         </li>
       </ul>
