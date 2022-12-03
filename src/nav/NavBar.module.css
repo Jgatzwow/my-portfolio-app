@@ -28,3 +28,15 @@
     margin-right: 5px;
 }
 
+@media screen and (max-width: 400px) {
+    .header__nav_closed {
+        opacity: 1;
+        width: 100%;
+    }
+    .header__nav_list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}

@@ -71,6 +71,7 @@
     left: 30px;
     top: 30px;
     transition: all 1s ease-out;
+    z-index: 10;
 }
 
 .lines__wrapper {
@@ -140,3 +141,24 @@
 .hw__link:active {
     color: gold;
 }
+@media screen and (max-width: 400px) {
+    .header {
+        position: initial;
+        background-color: #222222;
+    }
+    .burger {
+        display: none;
+    }
+}
+
+/*
+.header {
+    position: fixed;
+    top: 120px;
+    left: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+*/
