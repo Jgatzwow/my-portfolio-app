@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 .getInTouch__span {
     text-transform: capitalize;
@@ -18,4 +19,9 @@
     font-size: 18px;
     text-transform: lowercase;
     font-weight: 500;
+}
+@media screen and (max-width: 400px)  {
+    .getInTouch__info {
+        font-size: 16px;
+    }
 }

@@ -62,6 +62,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    gap: 10px;
 }
 
 .form__inputs__wrapper {
@@ -76,4 +77,32 @@
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+    .info__form__wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .form__content__wrapper {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .form__inputs__wrapper {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .form__content__wrapper {
+        flex-shrink: 1;
+    }
+}
+@media screen and (max-width: 600px) {
+    .contacts__container {
+
+    }
 }

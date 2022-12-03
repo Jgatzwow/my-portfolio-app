@@ -26,3 +26,19 @@
     padding: 12px 0 15px 49px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 800px)  {
+    .default {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px)  {
+    .defaultTextArea {
+        min-width: 500px;
+    }
+}
+@media screen and (max-width: 600px)  {
+    .defaultTextArea {
+        min-width: 350px;
+    }
+}

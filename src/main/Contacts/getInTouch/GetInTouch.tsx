@@ -20,7 +20,6 @@ export const GetInTouch = () => {
         <li>
           <span className={styles.getInTouch__span}>Email</span>
           <h6 className={styles.getInTouch__info}>
-            {" "}
             <FontAwesomeIcon color="#ffb400" icon={faEnvelope} />{" "}
             mihasokol1993@gmail.com
           </h6>
