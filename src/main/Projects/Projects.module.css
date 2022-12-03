@@ -20,3 +20,26 @@
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
 }
+
+@media screen and (max-width: 1332px) {
+    .projects__wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .projects__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .projects__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        padding: 0;
+        margin: 0;
+    }
+}

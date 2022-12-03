@@ -8,3 +8,8 @@
     flex-wrap: wrap;
     padding: 20px;
 }
+@media screen and (max-width: 600px)  {
+    .container {
+        width: 100%;
+    }
+}
