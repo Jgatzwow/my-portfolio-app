@@ -4,6 +4,8 @@ import inputStyles from "../../common/styles/InputStyles.module.css";
 import containerStyles from "../../common/styles/Container.module.css";
 import { GetInTouch } from "./getInTouch/GetInTouch";
 import { Title } from "../../common/title/Title";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMousePointer } from "@fortawesome/free-solid-svg-icons/faMousePointer";
 
 export const Contacts = () => {
   const dataForTitle = {
@@ -27,12 +29,24 @@ export const Contacts = () => {
             </p>
             <form className={styles.form}>
               <div className={styles.form__inputs__wrapper}>
-                <input className={inputStyles.default} type="text" />
-                <input className={inputStyles.default} type="text" />
+                <input
+                  className={inputStyles.default}
+                  type="text"
+                  placeholder={"YOUR NAME"}
+                />
+                <input
+                  className={inputStyles.default}
+                  type="text"
+                  placeholder={"YOUR EMAIL"}
+                />
               </div>
-              <textarea className={inputStyles.defaultTextArea}></textarea>
+              <textarea
+                className={inputStyles.defaultTextArea}
+                placeholder={"YOUR MESSAGE"}
+              ></textarea>
               <button type={"submit"} className={styles.contacts__btn}>
-                Send
+                <FontAwesomeIcon rotate={90} icon={faMousePointer} /> Send
+                message
               </button>
             </form>
           </div>

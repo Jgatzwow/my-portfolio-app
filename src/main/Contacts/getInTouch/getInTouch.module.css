@@ -5,3 +5,17 @@
     justify-content: center;
     align-items: center;
 }
+.getInTouch__span {
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    opacity: .8;
+}
+.getInTouch__info {
+    font-size: 18px;
+    text-transform: lowercase;
+    font-weight: 500;
+}

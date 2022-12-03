@@ -15,18 +15,21 @@
 }
 
 .title {
-    background-color: #fff;
-    font-size: 28px;
-    padding: 10px;
-    text-align: center;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    opacity: .8;
 }
 
 .socials {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 10px;
-    justify-content: space-around;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .socials__link {
@@ -36,6 +39,6 @@
 }
 .socials__link:hover,
 .socials__link:focus{
-    background-color: rgba(7, 208, 177, 0.96);
+    color: #ffb400;
     transition: 1s linear;
 }
