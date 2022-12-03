@@ -12,10 +12,10 @@ type PropsType = {
 export const InfoListAboutMe: React.FC<PropsType> = ({ data }) => {
   const mappedListItem = data.map((row) => {
     return (
-      <li key={row.id} className={styles.infoList__item}>
+      <div key={row.id} className={styles.infoList__item}>
         <span className={styles.infoList__text}>{row.field}</span>
         <h6 className={styles.infoList__personal}>{row.data}</h6>
-      </li>
+      </div>
     );
   });
   return <ul className={styles.infoList}>{mappedListItem}</ul>;
