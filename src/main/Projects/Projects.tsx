@@ -20,8 +20,9 @@ export const Projects: React.FC<PropsType> = ({ projects }) => {
     return (
       <Project
         key={p.id}
+        img={p.img}
+        link={p.link}
         project={p.project}
-        description={p.description}
         tech_stack={p.tech_stack}
       />
     );

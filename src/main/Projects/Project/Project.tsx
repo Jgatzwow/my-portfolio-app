@@ -3,26 +3,30 @@ import styles from "./Project.module.css";
 
 type PropsType = {
   project: string;
-  description: string;
+  img: string;
+  link: string;
   tech_stack: string[];
 };
 
 export const Project: React.FC<PropsType> = ({
   project,
-  description,
   tech_stack,
+  img,
+  link,
 }) => {
   const mappedTechStack = tech_stack.map((ts) => ts + " ");
   return (
-    <div className={styles.project}>
-      <div className={styles.icon__wrapper}>
-        <a href={"#"} className={styles.remote__hidden_btn}>
-          Check out
-        </a>
-      </div>
-      <h3 className={styles.project__title}>{project}</h3>
-      <p>{mappedTechStack}</p>
-      <p className={styles.project__description}>{description}</p>
-    </div>
+    <figure className={styles.project}>
+      <img
+        src={img}
+        alt={"Project related picture"}
+        className={styles.project__pic}
+      />
+      <figcaption className={styles.project__title}>
+        {project}
+        <p className={styles.tech__stack}>{mappedTechStack}</p>
+      </figcaption>
+      <a href={link} className={styles.project__link} target="_blank"></a>
+    </figure>
   );
 };

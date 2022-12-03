@@ -1,23 +1,17 @@
 .project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex: 1 0 24%;
-    padding: 10px;
-    border: 1px solid;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
 }
-
-.icon__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    height: 140px;
-    width: 140px;
-    margin-bottom: 10px;
-    background: url("https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU") center;
-    background-size: cover;
+.project:hover .project__pic {
+    transform: scale(1.05);
+}
+.project__pic {
+    width: 100%;
+    height: 100%;
+    transition: .15s;
 }
 
 .icon {
@@ -27,27 +21,45 @@
 }
 
 .project__title {
-    margin-bottom: 10px;
-}
-
-.project__description {
-    margin-bottom: 10px;
-}
-
-.remote__hidden_btn {
-    opacity: 0;
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    position: absolute;
+    color: #ffb400;
+    font-weight: 700;
     font-size: 16px;
+    line-height: 22px;
+    bottom: 27px;
+    left: 29px;
+    z-index: 3;
+}
+
+.tech__stack {
+    color: #ffb400;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    bottom: 0;
+    left:0;
+    z-index: 3;
+}
+.project__link {
+    font-size: 20px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f15a05;
+    z-index: 4;
     transition: 1s;
 }
-
-.remote__hidden_btn:hover {
+.project__link:hover {
     opacity: 1;
-
+    transition: 1s;
+}
+.project__link::after {
+    content: 'View more';
+    position: absolute;
+    font-size: 20px;
+    top: 45%;
+    left: 35%;
 }

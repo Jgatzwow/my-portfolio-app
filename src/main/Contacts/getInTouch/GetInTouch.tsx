@@ -1,5 +1,5 @@
 import React from "react";
-import { Socials } from "../../../Footer/Socials";
+import { Socials } from "../../../Socials/Socials";
 import styles from "./getInTouch.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";

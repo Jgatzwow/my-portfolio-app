@@ -16,7 +16,8 @@ export type SkillType = {
 export type ProjectType = {
   id: string;
   project: string;
-  description: string;
+  img: string;
+  link: string;
   tech_stack: string[];
 };
 const App = () => {
@@ -71,45 +72,45 @@ const App = () => {
     projects: [
       {
         id: v1(),
+        img: "https://cdn.pixabay.com/photo/2020/05/18/16/17/social-media-5187243_960_720.png",
+        link: "https://github.com/Jgatzwow/social-network-ts",
         project: "Social-network",
-        description: "extra info about the skill",
         tech_stack: ["React", "Redux", "Typescript", "Storybook"],
       },
       {
         id: v1(),
-        project: "TodoListApp",
-        description: "extra info about the skill",
+        img: "https://assets-global.website-files.com/619cef5c40cb8925cd33ece3/621e3d842f5305af9170e4eb_619cef5c40cb8963c133f5fc_6076f40a7bc433d96f4663f4_template-vignette-TO-DO-LIST-1200x900.png",
+        project: "TodoList",
+        link: "https://github.com/Jgatzwow/my-todo-list",
         tech_stack: ["React", "Redux", "Typescript", "Storybook"],
       },
       {
         id: v1(),
-        project: "Tic-Tac-Toe JS",
-        description: "extra info about the skill",
+        img: "https://cdn-icons-png.flaticon.com/512/1865/1865460.png",
+        project: "Calendar",
+        link: "https://github.com/Jgatzwow/webAcademy_H_W/tree/main/HW-calendar",
         tech_stack: ["JS", "HTML", "CSS"],
       },
       {
         id: v1(),
+        img: "https://www.expat.com/images/upload/2/3/1/5/1541668818-japan-news_item_slider-t1541668818.jpg",
         project: "Odigo Landing page",
-        description: "extra info about the skill",
+        link: "https://github.com/Jgatzwow?tab=repositories",
         tech_stack: ["HTML", "CSS", "JS"],
       },
       {
         id: v1(),
-        project: "Odigo Landing page",
-        description: "extra info about the skill",
-        tech_stack: ["HTML", "CSS", "JS"],
+        img: "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1102117/retina_1708x683_image_0__2_-9336ebe5ced53d1fd3fd5036e2ff1fb6.png",
+        project: "Portfolio",
+        link: "https://github.com/Jgatzwow/my-portfolio-app",
+        tech_stack: ["HTML", "SCSS", "React"],
       },
       {
         id: v1(),
-        project: "Odigo Landing page",
-        description: "extra info about the skill",
-        tech_stack: ["HTML", "CSS", "JS"],
-      },
-      {
-        id: v1(),
-        project: "Odigo Landing page",
-        description: "extra info about the skill",
-        tech_stack: ["HTML", "CSS", "JS"],
+        img: "https://cdn-icons-png.flaticon.com/512/3291/3291667.png",
+        link: "https://github.com/Jgatzwow?tab=repositories",
+        project: "Github repos list",
+        tech_stack: ["Typescript", "Tailwind", "React", "RTK/ RTK Query"],
       },
     ],
   };

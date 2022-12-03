@@ -5,16 +5,18 @@
     align-items: center;
     justify-content: center;
 }
+
 .projects__container {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
 }
+
 .projects__wrapper {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
 }
