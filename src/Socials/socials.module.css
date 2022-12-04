@@ -42,3 +42,20 @@
     color: #ffb400;
     transition: 1s linear;
 }
+@media screen and (max-width: 1260px)  {
+    .socials__wrapper {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 360px)  {
+    .socials__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 40px;
+        padding: 0 10px;
+    }
+}
+

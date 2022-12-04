@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Home.module.css";
 import containerStyles from "../common/styles/Container.module.css";
 import { NavLink } from "react-router-dom";
+import homePicture from "../images/pic_without_bg.png";
 
 export const Home = () => {
   return (
@@ -28,13 +29,7 @@ export const Home = () => {
           </div>
         </div>
         <div className={styles.photo__wrap}>
-          <img
-            className={styles.photo}
-            src={
-              "https://media.vanityfair.com/photos/570ff3254ec6412621943609/master/pass/four-avatar-sequels-james-cameron.jpg"
-            }
-            alt="My picture"
-          />
+          <img className={styles.photo} src={homePicture} alt="My picture" />
         </div>
       </div>
     </div>

@@ -45,3 +45,8 @@
         font-size: 14px;
     }
 }
+@media screen and (max-width: 460px) {
+    .infoList__text {
+        margin-right: 0;
+    }
+}

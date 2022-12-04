@@ -220,3 +220,24 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+
+
+
+@media screen and (max-width: 1280px) {
+    .skill__wrapper div:last-child div {
+        max-width: 288px;
+    }
+    .skill__wrapper div:nth-child(9) P {
+       right: 0;
+        left: 120px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .skill__wrapper div:last-child div {
+        max-width: 288px;
+    }
+    .skill__wrapper div:nth-child(9) P {
+        right: 0;
+        left: 120px;
+    }
+}

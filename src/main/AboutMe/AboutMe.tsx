@@ -6,6 +6,7 @@ import { InfoListAboutMe } from "./InfoListAboutMe/InfoListAboutMe";
 import { EducationList } from "./Education/EducationList";
 import containerStyles from "../../common/styles/Container.module.css";
 import { Title } from "../../common/title/Title";
+import myPic from "../../images/about_pic_without_bg.png";
 
 type PropsType = {
   skills: SkillType[];
@@ -75,7 +76,7 @@ export const AboutMe: React.FC<PropsType> = ({ skills }) => {
           <div className={styles.personal_info__img__wrapper}>
             <img
               className={styles.personal_info__img}
-              src="https://media.vanityfair.com/photos/570ff3254ec6412621943609/master/pass/four-avatar-sequels-james-cameron.jpg"
+              src={myPic}
               alt="My photo"
             />
           </div>
@@ -86,7 +87,13 @@ export const AboutMe: React.FC<PropsType> = ({ skills }) => {
             <InfoListAboutMe data={otherInfo} />
           </div>
           <div className={styles.personal_info__extended__link}>
-            <a href="/"> DOWNLOAD MY CV</a>
+            <a
+              href="https://github.com/Jgatzwow/my-portfolio-app"
+              target="_blank"
+            >
+              {" "}
+              DOWNLOAD MY CV
+            </a>
           </div>
         </div>
       </div>

@@ -86,7 +86,7 @@ const App = () => {
       },
       {
         id: v1(),
-        img: "https://cdn-icons-png.flaticon.com/512/1865/1865460.png",
+        img: "https://img.freepik.com/free-vector/calendar-icon-white-background_1308-84634.jpg?w=2000",
         project: "Calendar",
         link: "https://github.com/Jgatzwow/webAcademy_H_W/tree/main/HW-calendar",
         tech_stack: ["JS", "HTML", "CSS"],

@@ -141,7 +141,7 @@
 .hw__link:active {
     color: gold;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .header {
         position: initial;
         background-color: #222222;

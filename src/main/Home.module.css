@@ -108,4 +108,17 @@
     .main__container {
         flex-direction: column;
     }
+    .photo {
+        height: 500px;
+    }
+    .home__link {
+        margin-right: 0;
+    }
+
+}
+@media screen and (max-width: 360px)  {
+    .home__link {
+        margin-right: 0;
+    }
+
 }

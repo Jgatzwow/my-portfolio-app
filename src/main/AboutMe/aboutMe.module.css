@@ -140,10 +140,12 @@
 
 @media screen and (max-width: 460px) {
     .personal_info__extended__link {
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     .personal_info__img__wrapper {
+        position: absolute;
+        left: 25px;
         width: 250px;
         height: 250px;
 
@@ -161,10 +163,14 @@
 
 }
 @media screen and (max-width: 360px){
+    .personal_info__img__wrapper {
+        position: absolute;
+        left: 20px;
+    }
     .personal_info__extended {
         align-items: center;
     }
     .personal_info__extended__link {
-        margin-left: 65px;
+        margin-left: 67px;
     }
 }
