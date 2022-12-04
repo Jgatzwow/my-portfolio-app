@@ -139,6 +139,12 @@
 
 }
 
+@media screen and (max-width: 520px){
+    .aboutMe__personal_info {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 460px) {
     .personal_info__extended__link {
         margin-left: 70px;
@@ -159,10 +165,11 @@
     }
 
     .aboutMe__personal_info {
-        padding: 0 40px;
+        padding: 0;
     }
 
 }
+
 @media screen and (max-width: 360px){
     .personal_info__img__wrapper {
         position: absolute;
