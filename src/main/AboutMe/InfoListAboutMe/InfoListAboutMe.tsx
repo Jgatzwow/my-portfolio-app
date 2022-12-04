@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./infoTable.module.css";
+import styles from "./infoTable.module.scss";
 
 type PropsType = {
   data: {

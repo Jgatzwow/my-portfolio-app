@@ -1,12 +1,12 @@
 import React from "react";
 import { Skills } from "../skills/Skills";
 import { SkillType } from "../../App";
-import styles from "./aboutMe.module.css";
+import styles from "./aboutMe.module.scss";
 import { InfoListAboutMe } from "./InfoListAboutMe/InfoListAboutMe";
 import { EducationList } from "./Education/EducationList";
-import containerStyles from "../../common/styles/Container.module.css";
+import containerStyles from "../../common/styles/Container.module.scss";
 import { Title } from "../../common/title/Title";
-import myPic from "../../images/about_pic_without_bg.png";
+import myPic from "../../assets/images/about_pic_without_bg.png";
 
 type PropsType = {
   skills: SkillType[];

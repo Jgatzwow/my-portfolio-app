@@ -1,3 +1,4 @@
+@import "../../assets/SASS/variables";
 .skills {
     min-width: 40%;
 }
@@ -16,47 +17,47 @@
 .skill__wrapper div:first-child div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 85%, #555 15%)
+    background: linear-gradient(to right, $mainColor 85%, $bgColor 15%)
 }
 .skill__wrapper div:nth-child(2) div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 60%, #555 40%)
+    background: linear-gradient(to right, $mainColor 60%, $bgColor 40%)
 }
 .skill__wrapper div:nth-child(3) div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 80%, #555 20%)
+    background: linear-gradient(to right, $mainColor 80%, $bgColor 20%)
 }
 .skill__wrapper div:nth-child(4) div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 75%, #555 35%)
+    background: linear-gradient(to right, $mainColor 75%, $bgColor 35%)
 }
 .skill__wrapper div:nth-child(5) div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 85%, #555 15%)
+    background: linear-gradient(to right, $mainColor 85%, $bgColor 15%)
 }
 .skill__wrapper div:nth-child(6) div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 85%, #555 15%)
+    background: linear-gradient(to right, $mainColor 85%, $bgColor 15%)
 }
 .skill__wrapper div:nth-child(7) div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 70%, #555 30%)
+    background: linear-gradient(to right, $mainColor 70%, $bgColor 30%)
 }
 .skill__wrapper div:nth-child(8) div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 80%, #555 20%)
+    background: linear-gradient(to right, $mainColor 80%, $bgColor 20%)
 }
 .skill__wrapper div:last-child div {
     min-width: 250px;
     height: 1px;
-    background: linear-gradient(to right, #ffb400 50%, #555 50%)
+    background: linear-gradient(to right, $mainColor 50%, $bgColor 50%)
 }
 
 .skill__wrapper div:first-child P {
@@ -66,8 +67,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;
@@ -84,7 +85,7 @@
     width: 0;
     height: 0;
     border: 8px solid transparent;
-    border-top-color: #ffb400;
+    border-top-color: $mainColor;
     border-bottom: 0;
     margin-left: -20px;
     margin-bottom: -20px;
@@ -96,8 +97,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;
@@ -114,8 +115,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;
@@ -131,8 +132,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;
@@ -147,8 +148,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;
@@ -163,8 +164,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;
@@ -179,8 +180,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;
@@ -195,8 +196,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;
@@ -211,8 +212,8 @@
     height: 32px;
     width: 46px;
     z-index: 10;
-    color: #ffb400;
-    border: 1px solid #ffb400;
+    color: $mainColor;
+    border: 1px solid $mainColor;
     border-radius: 4px;
     font-weight: 600;
     font-size: 14px;

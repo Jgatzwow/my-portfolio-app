@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Home.module.css";
-import containerStyles from "../common/styles/Container.module.css";
+import styles from "./Home.module.scss";
+import containerStyles from "../common/styles/Container.module.scss";
 import { NavLink } from "react-router-dom";
-import homePicture from "../images/pic_without_bg.png";
+import homePicture from "../assets/images/pic_without_bg.png";
 
 export const Home = () => {
   return (
@@ -16,7 +16,7 @@ export const Home = () => {
             responsive, and beautiful web applications through carefully crafted
             code and user-centric design.
           </p>
-          <div>
+          <div className={styles.home__links_wrapper}>
             <NavLink className={styles.home__link} to="/about">
               More about me
             </NavLink>

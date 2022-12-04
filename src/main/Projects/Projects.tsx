@@ -1,8 +1,8 @@
 import React from "react";
 import { ProjectType } from "../../App";
 import { Project } from "./Project/Project";
-import styles from "./Projects.module.css";
-import containerStyles from "../../common/styles/Container.module.css";
+import styles from "./Projects.module.scss";
+import containerStyles from "../../common/styles/Container.module.scss";
 import { Title } from "../../common/title/Title";
 
 type PropsType = {

@@ -1,3 +1,4 @@
+@import "../assets/SASS/variables";
 .header__nav_closed {
     opacity: 0;
     transition: 1s;
@@ -15,17 +16,14 @@
 
 .header__nav__link {
     font-size: 20px;
+    &:hover {
+        color: $mainColor;
+    }
 }
-
-.header__nav__link:hover {
-    color: #ffb400;
-}
-
 .active {
     font-size: 20px;
-    color: #ffb400;
+    color: $mainColor;
 }
-
 .header__nav__list_item:last-child {
     margin-right: 5px;
 }
@@ -35,7 +33,6 @@
         opacity: 1;
         width: 100%;
     }
-
     .header__nav_list {
         display: flex;
         justify-content: center;

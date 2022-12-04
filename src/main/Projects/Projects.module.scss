@@ -1,6 +1,7 @@
+@import "../../assets/SASS/variables";
 .projects {
     min-height: 100vh;
-    background-color: #222;
+    background-color: $bgColor2;
     display: flex;
     align-items: center;
     justify-content: center;

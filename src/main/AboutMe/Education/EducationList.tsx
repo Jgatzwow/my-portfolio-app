@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./educationList.module.css";
+import styles from "./educationList.module.scss";
 
 type PropsType = {
   data: {

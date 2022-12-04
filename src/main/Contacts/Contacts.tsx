@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Contacts.module.css";
-import inputStyles from "../../common/styles/InputStyles.module.css";
-import containerStyles from "../../common/styles/Container.module.css";
+import styles from "./Contacts.module.scss";
+import inputStyles from "../../common/styles/InputStyles.module.scss";
+import containerStyles from "../../common/styles/Container.module.scss";
 import { GetInTouch } from "./getInTouch/GetInTouch";
 import { Title } from "../../common/title/Title";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

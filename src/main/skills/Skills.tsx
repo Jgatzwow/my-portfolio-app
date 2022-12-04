@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Skills.module.css";
+import styles from "./Skills.module.scss";
 import { SkillType } from "../../App";
 import { Skill } from "./Skill/Skill";
 
