@@ -27,15 +27,15 @@ export const GetInTouch = () => {
         <li className={styles.getInTouch__List__item}>
           <span className={styles.getInTouch__span}>Facebook</span>
           <h6 className={styles.getInTouch__info}>
-            <FontAwesomeIcon color="#ffb400" icon={faFacebook} />
-            /MykhailoSokolenko
+            <FontAwesomeIcon color="#ffb400" icon={faFacebook} />{" "}
+              MykhailoSokolenko
           </h6>
         </li>
         <li className={styles.getInTouch__List__item}>
           <span className={styles.getInTouch__span}>Telegram</span>
           <h6 className={styles.getInTouch__info}>
-            <FontAwesomeIcon color="#ffb400" icon={faTelegram} />
-            @MichaelSokolenko
+            <FontAwesomeIcon color="#ffb400" icon={faTelegram} />{" "}
+              MichaelSokolenko
           </h6>
         </li>
       </ul>
