@@ -1,8 +1,7 @@
-import React from "react";
-import styles from "./Home.module.scss";
-import containerStyles from "../common/styles/Container.module.scss";
-import { NavLink } from "react-router-dom";
-import homePicture from "../assets/images/pic_without_bg.png";
+import React from 'react';
+import styles from './Home.module.scss';
+import containerStyles from '../common/styles/Container.module.scss';
+import {NavLink} from 'react-router-dom';
 
 export const Home = () => {
   return (
@@ -29,7 +28,7 @@ export const Home = () => {
           </div>
         </div>
         <div className={styles.photo__wrap}>
-          <img className={styles.photo} src={homePicture} alt="My picture" />
+         {/* <img className={styles.photo} src={homePicture} alt="My picture" />*/}
         </div>
       </div>
     </div>

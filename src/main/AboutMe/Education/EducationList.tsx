@@ -27,7 +27,7 @@ export const EducationList: React.FC<PropsType> = ({ data }) => {
   });
   return (
     <div className={styles.infoList__text}>
-      <h2 className={styles.InfoList__title}>Education</h2>
+      <h2 className={styles.infoList__title}>Education</h2>
       <ul className={styles.infoList}>{mappedListItem}</ul>
     </div>
   );

@@ -100,7 +100,7 @@ export const AboutMe: React.FC<PropsType> = ({ skills }) => {
       <div
         className={`${containerStyles.container} ${styles.aboutMe__container}`}
       >
-        <hr style={{ margin: "72px 0 50px" }} />
+        <hr style={{ margin: "30px 0 50px" }} />
         <div className={styles.personal_info__extended}>
           <EducationList data={education} />
           <Skills skills={skills} />

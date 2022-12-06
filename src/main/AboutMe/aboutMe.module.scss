@@ -64,7 +64,7 @@
 .aboutMe__personal_info__bordered {
     position: relative;
     height: 440px;
-    width: 440px;
+    width: 380px;
     border: 5px solid $mainColor;
     margin-right: 40px;
 }
@@ -75,7 +75,7 @@
     left: -35px;
     background-color: white;
     height: 440px;
-    width: 440px;
+    width: 380px;
 
 }
 
@@ -114,22 +114,22 @@
     }
 
     .personal_info__extended__link {
-        margin-left: 20px;
+        margin-left: 25px;
     }
 
     .personal_info__img__wrapper {
         position: relative;
         object-fit: cover;
-        width: 350px;
-        height: 350px;
+        width: 280px;
+        height: 340px;
         top: 0;
-        left: 0;
+        left: 20px;
     }
 
     .aboutMe__personal_info__bordered {
         border: none;
-        width: 350px;
-        height: 350px;
+        width: 280px;
+        height: 340px;
     }
 
     .aboutMe__personal_info {
@@ -147,21 +147,24 @@
 
 @media screen and (max-width: 460px) {
     .personal_info__extended__link {
-        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 80px;
     }
 
     .personal_info__img__wrapper {
         position: absolute;
         left: 25px;
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 340px;
 
     }
 
     .aboutMe__personal_info__bordered {
         border: none;
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 340px;
     }
 
     .aboutMe__personal_info {
@@ -179,6 +182,9 @@
         align-items: center;
     }
     .personal_info__extended__link {
-        margin-left: 67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 60px;
     }
 }

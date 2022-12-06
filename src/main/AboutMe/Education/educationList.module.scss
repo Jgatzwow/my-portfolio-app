@@ -1,10 +1,18 @@
+@import "./src/assets/SASS/variables";
 .infoList__text {
     display: flex;
     flex-direction: column;
     min-width: 35%;
     margin-right: 70px;
 }
-.InfoList__title {
+/*
+.infoList {
+    list-style: circle;
+    border-left: 1px solid $mainColor;
+}
+*/
+
+.infoList__title {
     margin-bottom: 50px;
     font-size: 23px;
     font-weight: 600;
