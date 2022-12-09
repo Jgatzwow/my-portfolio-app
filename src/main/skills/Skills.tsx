@@ -9,7 +9,7 @@ type PropsType = {
 
 export const Skills: React.FC<PropsType> = ({ skills }) => {
   const mappedSkills = skills.map((s) => {
-    return <Skill key={s.id} skill={s.skill} description={s.description} />;
+    return <Skill key={s.id} skill={s.skill} />;
   });
   return (
     <section className={styles.skills}>

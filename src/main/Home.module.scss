@@ -91,7 +91,7 @@
 
   .photo {
     width: 100%;
-    height: 700px;
+    height: 600px;
     overflow: hidden;
   }
 }
@@ -134,7 +134,14 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
+  .photo__wrap {
+    display: none;
+
+    .photo {
+      display: none;
+    }
+  }
   .home__link {
     margin-right: 15px;
   }

@@ -10,7 +10,6 @@ import { Route, Routes } from "react-router";
 export type SkillType = {
   id: string;
   skill: string;
-  description: string;
 };
 
 export type ProjectType = {
@@ -26,47 +25,50 @@ const App = () => {
       {
         id: v1(),
         skill: "React",
-        description: "85%",
       },
       {
         id: v1(),
         skill: "JS",
-        description: "60%",
       },
       {
         id: v1(),
         skill: "HTML",
-        description: "90%",
       },
       {
         id: v1(),
         skill: "CSS/SCSS",
-        description: "75%",
       },
       {
         id: v1(),
         skill: "TypeScript",
-        description: "85%",
       },
       {
         id: v1(),
         skill: "Redux/Redux Toolkit",
-        description: "85%",
       },
       {
         id: v1(),
-        skill: "StoryBook",
-        description: "70%",
+        skill: "StoryBook/Jest",
       },
       {
         id: v1(),
-        skill: "Material UI/Tailwind",
-        description: "80%",
+        skill: "Material UI/Ant Design",
       },
       {
         id: v1(),
         skill: "RTK Query",
-        description: "50%",
+      },
+      {
+        id: v1(),
+        skill: "Formik/yup",
+      },
+      {
+        id: v1(),
+        skill: "React hook form",
+      },
+      {
+        id: v1(),
+        skill: "Rest api",
       },
     ],
     projects: [

@@ -92,17 +92,25 @@
     flex-wrap: wrap;
 }
 
+.separator {
+    display: none;
+}
+
 @media screen and (max-width: 1400px) {
     .aboutMe__personal_info {
         flex-direction: column;
         gap: 10px;
     }
+
 }
 
 @media screen and (max-width: 1250px) {
     .personal_info__extended {
         flex-direction: column;
         gap: 15px;
+    }
+    .separator {
+        display: block;
     }
 }
 
@@ -173,7 +181,7 @@
 
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 400px){
     .personal_info__img__wrapper {
         position: absolute;
         left: 20px;

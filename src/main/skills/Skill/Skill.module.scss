@@ -1,18 +1,25 @@
+@import "./src/assets/SASS/variables";
+
 .skill {
-    position: relative;
-    margin-bottom: 30px;
-    flex-grow: 1;
-    margin-right: 20px;
+  display: flex;
+  min-width: 200px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-basis: 33%;
+  flex-grow: 1;
+  margin:0 5px 5px 0;
+  border: 1px solid $mainColor;
+  border-radius: 5px;
+
 }
 
 .skill__title {
-    display: block;
-    margin-bottom: 18px;
-    font-size: 16px;
-    font-weight: 300;
-    text-transform: uppercase;
+  margin: 0;
+  padding: 5px;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
-.bubble__wrapper {
-    position: relative;
-}
+
