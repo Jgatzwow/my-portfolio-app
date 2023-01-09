@@ -28,39 +28,39 @@ const App = () => {
       },
       {
         id: v1(),
-        skill: "JS",
-      },
-      {
-        id: v1(),
-        skill: "HTML",
-      },
-      {
-        id: v1(),
-        skill: "CSS/SCSS",
-      },
-      {
-        id: v1(),
         skill: "TypeScript",
       },
       {
         id: v1(),
-        skill: "Redux/Redux Toolkit",
+        skill: "Redux / Redux Toolkit",
       },
       {
         id: v1(),
-        skill: "StoryBook/Jest",
+        skill: "JS",
       },
       {
         id: v1(),
-        skill: "Material UI/Ant Design",
+        skill: "REST API / AXIOS / RTK QUERY",
       },
       {
         id: v1(),
-        skill: "RTK Query",
+        skill: "CSS / SCSS / TAILWIND (BEM)",
       },
       {
         id: v1(),
-        skill: "Formik/yup",
+        skill: "UI KIT / STYLED COMPONENTS",
+      },
+      {
+        id: v1(),
+        skill: "Material UI / Ant Design",
+      },
+      {
+        id: v1(),
+        skill: "StoryBook / Jest",
+      },
+      {
+        id: v1(),
+        skill: "Formik / yup",
       },
       {
         id: v1(),
@@ -68,7 +68,7 @@ const App = () => {
       },
       {
         id: v1(),
-        skill: "Rest api",
+        skill: "HTML",
       },
     ],
     projects: [

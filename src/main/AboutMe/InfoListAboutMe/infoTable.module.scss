@@ -32,9 +32,8 @@
 @media screen and (max-width: 460px) {
     .infoList__item {
         display: flex;
-        flex-direction: column;
         justify-content: flex-start;
-        text-overflow: fade;
+        gap: 30px;
     }
     .infoList__personal {
         text-align: center;

@@ -32,19 +32,25 @@
     justify-content: flex-start;
     gap: 10px;
     font-size: 35px;
+
     & li:last-child {
-      /*margin-bottom: 100px;*/
       .socials__link {
         display: flex;
         justify-content: space-around;
         transition: 1s;
-        &:hover,
-        &:focus {
-          color: $mainColor;
-          transition: 1s linear;
-        }
       }
     }
+  }
+
+  & li {
+    .socials__link {
+      &:hover,
+      &:focus {
+        color: $mainColor;
+        transition: 1s linear;
+      }
+    }
+
   }
 }
 
