@@ -24,6 +24,7 @@ export const Projects: React.FC<PropsType> = ({ projects }) => {
         link={p.link}
         project={p.project}
         tech_stack={p.tech_stack}
+        demoLink={p.demoLink}
       />
     );
   });
