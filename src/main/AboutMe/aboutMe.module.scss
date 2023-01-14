@@ -114,17 +114,13 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .personal_info__extended {
         flex-direction: column;
         padding: 0 20px;
         gap: 15px;
     }
-
-    .personal_info__extended__link {
-        margin-left: 25px;
-    }
-
+    
     .personal_info__img__wrapper {
         position: relative;
         object-fit: cover;
@@ -154,11 +150,15 @@
 }
 
 @media screen and (max-width: 460px) {
+
+    .personal_info__extended{
+        padding: 0;
+    }
     .personal_info__extended__link {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 65px;
+        padding: 0;
     }
 
     .personal_info__img__wrapper {
@@ -182,17 +182,22 @@
 }
 
 @media screen and (max-width: 400px){
+    .aboutMe__personal_info {
+        margin: 0;
+        padding: 0;
+    }
     .personal_info__img__wrapper {
         position: absolute;
         left: 20px;
     }
     .personal_info__extended {
-        align-items: center;
+        max-width: 355px;
+        gap: 0;
     }
     .personal_info__extended__link {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 60px;
+        flex-grow: 1;
     }
 }

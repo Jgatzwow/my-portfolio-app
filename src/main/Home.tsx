@@ -29,7 +29,7 @@ export const Home = () => {
           </div>
         </div>
         <div className={styles.photo__wrap}>
-          <img className={styles.photo} src={homePicture} alt="My picture" />
+          <img className={styles.photo} src={homePicture} />
         </div>
       </div>
     </div>
